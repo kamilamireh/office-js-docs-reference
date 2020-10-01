@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientRequestContext:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientRequestContext:class'
     package: word!
     children:
       - 'word!Word.RequestContext:constructor(1)'
@@ -59,5 +61,7 @@ references:
     name: OfficeExtension.ClientRequestContext
   - uid: 'word!Word.Application:class'
     name: Application
+    fullName: Word.Application
   - uid: 'word!Word.Document:class'
     name: Document
+    fullName: Word.Document

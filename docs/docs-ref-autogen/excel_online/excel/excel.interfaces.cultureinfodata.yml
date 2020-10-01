@@ -63,6 +63,8 @@ items:
           - 'excel!Excel.Interfaces.NumberFormatInfoData:interface'
 references:
   - uid: 'excel!Excel.Interfaces.DatetimeFormatInfoData:interface'
-    name: Excel.Interfaces.DatetimeFormatInfoData
+    name: DatetimeFormatInfoData
+    fullName: Excel.Interfaces.DatetimeFormatInfoData
   - uid: 'excel!Excel.Interfaces.NumberFormatInfoData:interface'
-    name: Excel.Interfaces.NumberFormatInfoData
+    name: NumberFormatInfoData
+    fullName: Excel.Interfaces.NumberFormatInfoData

@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.TextFrame#autoSizeSetting:member'
@@ -440,6 +442,7 @@ references:
         fullName: ' | "AutoSizeNone" | "AutoSizeTextToFitShape" | "AutoSizeShapeToFitText" | "AutoSizeMixed"'
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.TextFrame#horizontalAlignment~0:complex'
     name: >-
       Excel.ShapeTextHorizontalAlignment | "Left" | "Center" | "Right" | "Justify" | "JustifyLow" | "Distributed" |
@@ -463,9 +466,11 @@ references:
       - name: ' | "Overflow" | "Clip"'
         fullName: ' | "Overflow" | "Clip"'
   - uid: 'excel!Excel.TextFrame:class'
-    name: Excel.TextFrame
+    name: TextFrame
+    fullName: Excel.TextFrame
   - uid: 'excel!Excel.Interfaces.TextFrameLoadOptions:interface'
-    name: Excel.Interfaces.TextFrameLoadOptions
+    name: TextFrameLoadOptions
+    fullName: Excel.Interfaces.TextFrameLoadOptions
   - uid: 'excel!Excel.TextFrame#orientation~0:complex'
     name: >-
       Excel.ShapeTextOrientation | "Horizontal" | "Vertical" | "Vertical270" | "WordArtVertical" | "EastAsianVertical" |
@@ -489,13 +494,16 @@ references:
       - name: ' | "LeftToRight" | "RightToLeft"'
         fullName: ' | "LeftToRight" | "RightToLeft"'
   - uid: 'excel!Excel.Interfaces.TextFrameUpdateData:interface'
-    name: Interfaces.TextFrameUpdateData
+    name: TextFrameUpdateData
+    fullName: Excel.Interfaces.TextFrameUpdateData
   - uid: 'office!OfficeExtension.UpdateOptions:interface'
     name: OfficeExtension.UpdateOptions
   - uid: 'excel!Excel.TextRange:class'
-    name: Excel.TextRange
+    name: TextRange
+    fullName: Excel.TextRange
   - uid: 'excel!Excel.Interfaces.TextFrameData:interface'
-    name: Excel.Interfaces.TextFrameData
+    name: TextFrameData
+    fullName: Excel.Interfaces.TextFrameData
   - uid: 'excel!Excel.TextFrame#verticalAlignment~0:complex'
     name: Excel.ShapeTextVerticalAlignment | "Top" | "Middle" | "Bottom" | "Justified" | "Distributed"
     fullName: Excel.ShapeTextVerticalAlignment | "Top" | "Middle" | "Bottom" | "Justified" | "Distributed"

@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.StyleCollection#add:member(1)'
@@ -280,6 +282,7 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.StyleCollection#getCount~0:complex'
     name: OfficeExtension.ClientResult<number>
     fullName: OfficeExtension.ClientResult<number>
@@ -290,7 +293,8 @@ references:
       - name: <number>
         fullName: <number>
   - uid: 'excel!Excel.Style:class'
-    name: Excel.Style
+    name: Style
+    fullName: Excel.Style
   - uid: 'excel!Excel.StyleCollection#items~0:complex'
     name: 'Excel.Style[]'
     fullName: 'Excel.Style[]'
@@ -301,7 +305,8 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: 'excel!Excel.StyleCollection:class'
-    name: Excel.StyleCollection
+    name: StyleCollection
+    fullName: Excel.StyleCollection
   - uid: 'excel!Excel.StyleCollection#load~0:complex'
     name: Excel.Interfaces.StyleCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
     fullName: Excel.Interfaces.StyleCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
@@ -317,4 +322,5 @@ references:
   - uid: 'office!OfficeExtension.LoadOption:interface'
     name: OfficeExtension.LoadOption
   - uid: 'excel!Excel.Interfaces.StyleCollectionData:interface'
-    name: Excel.Interfaces.StyleCollectionData
+    name: StyleCollectionData
+    fullName: Excel.Interfaces.StyleCollectionData

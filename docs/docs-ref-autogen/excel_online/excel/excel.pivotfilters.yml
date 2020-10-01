@@ -222,10 +222,14 @@ items:
           ```
 references:
   - uid: 'excel!Excel.PivotDateFilter:interface'
-    name: Excel.PivotDateFilter
+    name: PivotDateFilter
+    fullName: Excel.PivotDateFilter
   - uid: 'excel!Excel.PivotLabelFilter:interface'
-    name: Excel.PivotLabelFilter
+    name: PivotLabelFilter
+    fullName: Excel.PivotLabelFilter
   - uid: 'excel!Excel.PivotManualFilter:interface'
-    name: Excel.PivotManualFilter
+    name: PivotManualFilter
+    fullName: Excel.PivotManualFilter
   - uid: 'excel!Excel.PivotValueFilter:interface'
-    name: Excel.PivotValueFilter
+    name: PivotValueFilter
+    fullName: Excel.PivotValueFilter

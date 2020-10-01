@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.WorksheetCustomPropertyCollection#add:member(1)'
@@ -251,9 +253,11 @@ references:
   - uid: 'office!OfficeExtension.ClientObject:class'
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.WorksheetCustomProperty:class'
-    name: Excel.WorksheetCustomProperty
+    name: WorksheetCustomProperty
+    fullName: Excel.WorksheetCustomProperty
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.WorksheetCustomPropertyCollection#getCount~0:complex'
     name: OfficeExtension.ClientResult<number>
     fullName: OfficeExtension.ClientResult<number>
@@ -273,7 +277,8 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: 'excel!Excel.WorksheetCustomPropertyCollection:class'
-    name: Excel.WorksheetCustomPropertyCollection
+    name: WorksheetCustomPropertyCollection
+    fullName: Excel.WorksheetCustomPropertyCollection
   - uid: 'excel!Excel.WorksheetCustomPropertyCollection#load~0:complex'
     name: Excel.Interfaces.WorksheetCustomPropertyCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
     fullName: Excel.Interfaces.WorksheetCustomPropertyCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
@@ -289,4 +294,5 @@ references:
   - uid: 'office!OfficeExtension.LoadOption:interface'
     name: OfficeExtension.LoadOption
   - uid: 'excel!Excel.Interfaces.WorksheetCustomPropertyCollectionData:interface'
-    name: Excel.Interfaces.WorksheetCustomPropertyCollectionData
+    name: WorksheetCustomPropertyCollectionData
+    fullName: Excel.Interfaces.WorksheetCustomPropertyCollectionData

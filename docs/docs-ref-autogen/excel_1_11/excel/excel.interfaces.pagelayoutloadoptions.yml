@@ -357,4 +357,5 @@ items:
           - boolean
 references:
   - uid: 'excel!Excel.Interfaces.HeaderFooterGroupLoadOptions:interface'
-    name: Excel.Interfaces.HeaderFooterGroupLoadOptions
+    name: HeaderFooterGroupLoadOptions
+    fullName: Excel.Interfaces.HeaderFooterGroupLoadOptions

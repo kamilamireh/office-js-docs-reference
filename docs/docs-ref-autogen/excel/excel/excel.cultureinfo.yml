@@ -14,6 +14,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.CultureInfo#context:member'
@@ -228,13 +230,19 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.DatetimeFormatInfo:class'
-    name: Excel.DatetimeFormatInfo
+    name: DatetimeFormatInfo
+    fullName: Excel.DatetimeFormatInfo
   - uid: 'excel!Excel.CultureInfo:class'
-    name: Excel.CultureInfo
+    name: CultureInfo
+    fullName: Excel.CultureInfo
   - uid: 'excel!Excel.Interfaces.CultureInfoLoadOptions:interface'
-    name: Excel.Interfaces.CultureInfoLoadOptions
+    name: CultureInfoLoadOptions
+    fullName: Excel.Interfaces.CultureInfoLoadOptions
   - uid: 'excel!Excel.NumberFormatInfo:class'
-    name: Excel.NumberFormatInfo
+    name: NumberFormatInfo
+    fullName: Excel.NumberFormatInfo
   - uid: 'excel!Excel.Interfaces.CultureInfoData:interface'
-    name: Excel.Interfaces.CultureInfoData
+    name: CultureInfoData
+    fullName: Excel.Interfaces.CultureInfoData

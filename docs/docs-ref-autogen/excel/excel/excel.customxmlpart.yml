@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.CustomXmlPart#context:member'
@@ -347,6 +349,7 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.CustomXmlPart#getXml~0:complex'
     name: OfficeExtension.ClientResult<string>
     fullName: OfficeExtension.ClientResult<string>
@@ -357,8 +360,11 @@ references:
       - name: <string>
         fullName: <string>
   - uid: 'excel!Excel.CustomXmlPart:class'
-    name: Excel.CustomXmlPart
+    name: CustomXmlPart
+    fullName: Excel.CustomXmlPart
   - uid: 'excel!Excel.Interfaces.CustomXmlPartLoadOptions:interface'
-    name: Excel.Interfaces.CustomXmlPartLoadOptions
+    name: CustomXmlPartLoadOptions
+    fullName: Excel.Interfaces.CustomXmlPartLoadOptions
   - uid: 'excel!Excel.Interfaces.CustomXmlPartData:interface'
-    name: Excel.Interfaces.CustomXmlPartData
+    name: CustomXmlPartData
+    fullName: Excel.Interfaces.CustomXmlPartData

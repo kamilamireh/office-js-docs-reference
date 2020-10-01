@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.WorksheetCustomProperty#context:member'
@@ -227,13 +229,18 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.WorksheetCustomProperty:class'
-    name: Excel.WorksheetCustomProperty
+    name: WorksheetCustomProperty
+    fullName: Excel.WorksheetCustomProperty
   - uid: 'excel!Excel.Interfaces.WorksheetCustomPropertyLoadOptions:interface'
-    name: Excel.Interfaces.WorksheetCustomPropertyLoadOptions
+    name: WorksheetCustomPropertyLoadOptions
+    fullName: Excel.Interfaces.WorksheetCustomPropertyLoadOptions
   - uid: 'excel!Excel.Interfaces.WorksheetCustomPropertyUpdateData:interface'
-    name: Interfaces.WorksheetCustomPropertyUpdateData
+    name: WorksheetCustomPropertyUpdateData
+    fullName: Excel.Interfaces.WorksheetCustomPropertyUpdateData
   - uid: 'office!OfficeExtension.UpdateOptions:interface'
     name: OfficeExtension.UpdateOptions
   - uid: 'excel!Excel.Interfaces.WorksheetCustomPropertyData:interface'
-    name: Excel.Interfaces.WorksheetCustomPropertyData
+    name: WorksheetCustomPropertyData
+    fullName: Excel.Interfaces.WorksheetCustomPropertyData

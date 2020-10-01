@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.DatetimeFormatInfo#context:member'
@@ -206,9 +208,13 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.DatetimeFormatInfo:class'
-    name: Excel.DatetimeFormatInfo
+    name: DatetimeFormatInfo
+    fullName: Excel.DatetimeFormatInfo
   - uid: 'excel!Excel.Interfaces.DatetimeFormatInfoLoadOptions:interface'
-    name: Excel.Interfaces.DatetimeFormatInfoLoadOptions
+    name: DatetimeFormatInfoLoadOptions
+    fullName: Excel.Interfaces.DatetimeFormatInfoLoadOptions
   - uid: 'excel!Excel.Interfaces.DatetimeFormatInfoData:interface'
-    name: Excel.Interfaces.DatetimeFormatInfoData
+    name: DatetimeFormatInfoData
+    fullName: Excel.Interfaces.DatetimeFormatInfoData

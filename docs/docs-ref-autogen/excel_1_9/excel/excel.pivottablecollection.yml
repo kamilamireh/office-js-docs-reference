@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.PivotTableCollection#add:member(1)'
@@ -264,7 +266,8 @@ references:
   - uid: 'office!OfficeExtension.ClientObject:class'
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.PivotTable:class'
-    name: Excel.PivotTable
+    name: PivotTable
+    fullName: Excel.PivotTable
   - uid: 'excel!Excel.PivotTableCollection#add~0:complex'
     name: Range | string | Table
     fullName: Excel.Range | string | Excel.Table
@@ -288,6 +291,7 @@ references:
         fullName: ' | string'
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.PivotTableCollection#getCount~0:complex'
     name: OfficeExtension.ClientResult<number>
     fullName: OfficeExtension.ClientResult<number>
@@ -307,7 +311,8 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: 'excel!Excel.PivotTableCollection:class'
-    name: Excel.PivotTableCollection
+    name: PivotTableCollection
+    fullName: Excel.PivotTableCollection
   - uid: 'excel!Excel.PivotTableCollection#load~0:complex'
     name: Excel.Interfaces.PivotTableCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
     fullName: Excel.Interfaces.PivotTableCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
@@ -323,4 +328,5 @@ references:
   - uid: 'office!OfficeExtension.LoadOption:interface'
     name: OfficeExtension.LoadOption
   - uid: 'excel!Excel.Interfaces.PivotTableCollectionData:interface'
-    name: Excel.Interfaces.PivotTableCollectionData
+    name: PivotTableCollectionData
+    fullName: Excel.Interfaces.PivotTableCollectionData

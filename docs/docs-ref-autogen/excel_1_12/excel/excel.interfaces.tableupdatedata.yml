@@ -185,4 +185,5 @@ items:
           - 'excel!Excel.Interfaces.TableStyleUpdateData:interface'
 references:
   - uid: 'excel!Excel.Interfaces.TableStyleUpdateData:interface'
-    name: Excel.Interfaces.TableStyleUpdateData
+    name: TableStyleUpdateData
+    fullName: Excel.Interfaces.TableStyleUpdateData

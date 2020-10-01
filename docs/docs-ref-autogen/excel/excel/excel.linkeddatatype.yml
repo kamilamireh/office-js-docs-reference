@@ -15,6 +15,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.LinkedDataType#context:member'
@@ -345,12 +347,15 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: '!Date:interface'
     name: Date
   - uid: 'excel!Excel.LinkedDataType:class'
-    name: Excel.LinkedDataType
+    name: LinkedDataType
+    fullName: Excel.LinkedDataType
   - uid: 'excel!Excel.Interfaces.LinkedDataTypeLoadOptions:interface'
-    name: Excel.Interfaces.LinkedDataTypeLoadOptions
+    name: LinkedDataTypeLoadOptions
+    fullName: Excel.Interfaces.LinkedDataTypeLoadOptions
   - uid: 'excel!Excel.LinkedDataType#refreshMode~0:complex'
     name: Excel.LinkedDataTypeRefreshMode | "Unknown" | "Manual" | "OnLoad" | "Periodic"
     fullName: Excel.LinkedDataTypeRefreshMode | "Unknown" | "Manual" | "OnLoad" | "Periodic"
@@ -361,7 +366,8 @@ references:
       - name: ' | "Unknown" | "Manual" | "OnLoad" | "Periodic"'
         fullName: ' | "Unknown" | "Manual" | "OnLoad" | "Periodic"'
   - uid: 'excel!Excel.LinkedDataTypeRefreshMode:enum'
-    name: Excel.LinkedDataTypeRefreshMode
+    name: LinkedDataTypeRefreshMode
+    fullName: Excel.LinkedDataTypeRefreshMode
   - uid: 'excel!Excel.LinkedDataType#supportedRefreshModes~0:complex'
     name: 'Excel.LinkedDataTypeRefreshMode[]'
     fullName: 'Excel.LinkedDataTypeRefreshMode[]'
@@ -372,4 +378,5 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: 'excel!Excel.Interfaces.LinkedDataTypeData:interface'
-    name: Excel.Interfaces.LinkedDataTypeData
+    name: LinkedDataTypeData
+    fullName: Excel.Interfaces.LinkedDataTypeData

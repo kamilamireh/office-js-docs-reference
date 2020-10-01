@@ -93,4 +93,5 @@ items:
           - string
 references:
   - uid: 'outlook!Office.MailboxEnums.DelegatePermissions:enum'
-    name: MailboxEnums.DelegatePermissions
+    name: DelegatePermissions
+    fullName: Office.MailboxEnums.DelegatePermissions

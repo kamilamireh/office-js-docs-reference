@@ -264,7 +264,8 @@ references:
       - name: ' | "Compact" | "Tabular" | "Outline"'
         fullName: ' | "Compact" | "Tabular" | "Outline"'
   - uid: 'excel!Excel.Interfaces.PivotTableStyleData:interface'
-    name: Excel.Interfaces.PivotTableStyleData
+    name: PivotTableStyleData
+    fullName: Excel.Interfaces.PivotTableStyleData
   - uid: 'excel!Excel.Interfaces.PivotLayoutData#subtotalLocation~0:complex'
     name: Excel.SubtotalLocationType | "AtTop" | "AtBottom" | "Off"
     fullName: Excel.SubtotalLocationType | "AtTop" | "AtBottom" | "Off"

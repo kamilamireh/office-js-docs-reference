@@ -26,6 +26,13 @@ items:
     extends:
       - 'outlook!Office.Appointment:interface'
       - 'outlook!Office.ItemCompose:interface'
+    inheritance:
+      - type: 'outlook!Office.Appointment:interface'
+        inheritance:
+          - type: 'outlook!Office.Item:interface'
+      - type: 'outlook!Office.ItemCompose:interface'
+        inheritance:
+          - type: 'outlook!Office.Item:interface'
     package: outlook!
     children:
       - 'outlook!Office.AppointmentCompose#addFileAttachmentAsync:member(1)'
@@ -3903,8 +3910,13 @@ items:
 references:
   - uid: 'outlook!Office.Appointment:interface'
     name: Appointment
+    fullName: Office.Appointment
   - uid: 'outlook!Office.ItemCompose:interface'
     name: ItemCompose
+    fullName: Office.ItemCompose
+  - uid: 'outlook!Office.Item:interface'
+    name: Item
+    fullName: Office.Item
   - uid: 'outlook!Office.AppointmentCompose#addFileAttachmentAsync~0:complex'
     name: 'Office.AsyncContextOptions & { isInline: boolean }'
     fullName: 'Office.AsyncContextOptions & { isInline: boolean }'
@@ -4033,8 +4045,10 @@ references:
         fullName: <string>) => void
   - uid: 'outlook!Office.Body:interface'
     name: Body
+    fullName: Office.Body
   - uid: 'outlook!Office.Categories:interface'
     name: Categories
+    fullName: Office.Categories
   - uid: 'outlook!Office.AppointmentCompose#disableClientSignatureAsync~0:complex'
     name: '(asyncResult: Office.AsyncResult<void>) => void'
     fullName: '(asyncResult: Office.AsyncResult<void>) => void'
@@ -4059,8 +4073,10 @@ references:
         fullName: <void>) => void
   - uid: 'outlook!Office.Time:interface'
     name: Time
+    fullName: Office.Time
   - uid: 'outlook!Office.EnhancedLocation:interface'
     name: EnhancedLocation
+    fullName: Office.EnhancedLocation
   - uid: 'outlook!Office.AppointmentCompose#getAttachmentContentAsync~0:complex'
     name: '(asyncResult: Office.AsyncResult<AttachmentContent>) => void'
     fullName: '(asyncResult: Office.AsyncResult<Office.AttachmentContent>) => void'
@@ -4243,6 +4259,7 @@ references:
         fullName: '>) => void'
   - uid: 'outlook!Office.IsAllDayEvent:interface'
     name: IsAllDayEvent
+    fullName: Office.IsAllDayEvent
   - uid: 'outlook!Office.AppointmentCompose#isClientSignatureEnabledAsync~0:complex'
     name: '(asyncResult: Office.AsyncResult<boolean>) => void'
     fullName: '(asyncResult: Office.AsyncResult<boolean>) => void'
@@ -4292,14 +4309,19 @@ references:
         fullName: '>) => void'
   - uid: 'outlook!Office.Location:interface'
     name: Location
+    fullName: Office.Location
   - uid: 'outlook!Office.NotificationMessages:interface'
     name: NotificationMessages
+    fullName: Office.NotificationMessages
   - uid: 'outlook!Office.Recipients:interface'
     name: Recipients
+    fullName: Office.Recipients
   - uid: 'outlook!Office.Organizer:interface'
     name: Organizer
+    fullName: Office.Organizer
   - uid: 'outlook!Office.Recurrence:interface'
     name: Recurrence
+    fullName: Office.Recurrence
   - uid: 'outlook!Office.AppointmentCompose#removeAttachmentAsync~0:complex'
     name: '(asyncResult: Office.AsyncResult<void>) => void'
     fullName: '(asyncResult: Office.AsyncResult<void>) => void'
@@ -4386,8 +4408,10 @@ references:
         fullName: <string>) => void
   - uid: 'outlook!Office.Sensitivity:interface'
     name: Sensitivity
+    fullName: Office.Sensitivity
   - uid: 'outlook!Office.SessionData:interface'
     name: SessionData
+    fullName: Office.SessionData
   - uid: 'outlook!Office.AppointmentCompose#setSelectedDataAsync~0:complex'
     name: Office.AsyncContextOptions & CoercionTypeOptions
     fullName: Office.AsyncContextOptions & Office.CoercionTypeOptions
@@ -4424,3 +4448,4 @@ references:
         fullName: <void>) => void
   - uid: 'outlook!Office.Subject:interface'
     name: Subject
+    fullName: Office.Subject

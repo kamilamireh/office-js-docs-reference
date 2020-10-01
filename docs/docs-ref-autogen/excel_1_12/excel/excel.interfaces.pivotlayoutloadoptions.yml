@@ -163,4 +163,5 @@ items:
           - boolean
 references:
   - uid: 'excel!Excel.Interfaces.PivotTableStyleLoadOptions:interface'
-    name: Excel.Interfaces.PivotTableStyleLoadOptions
+    name: PivotTableStyleLoadOptions
+    fullName: Excel.Interfaces.PivotTableStyleLoadOptions

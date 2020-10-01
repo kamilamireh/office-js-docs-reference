@@ -170,6 +170,7 @@ references:
         fullName: <string>
   - uid: 'office!Office.AuthOptions:interface'
     name: AuthOptions
+    fullName: Office.AuthOptions
   - uid: 'office!Office.Auth#getAccessTokenAsync~0:complex'
     name: '(result: AsyncResult<string>) => void'
     fullName: '(result: Office.AsyncResult<string>) => void'

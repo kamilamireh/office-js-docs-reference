@@ -85,4 +85,5 @@ items:
           - boolean
 references:
   - uid: 'word!Word.Interfaces.BodyLoadOptions:interface'
-    name: Word.Interfaces.BodyLoadOptions
+    name: BodyLoadOptions
+    fullName: Word.Interfaces.BodyLoadOptions

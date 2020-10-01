@@ -105,4 +105,5 @@ items:
             - string
 references:
   - uid: 'office!Office.EventType:enum'
-    name: Office.EventType
+    name: EventType
+    fullName: Office.EventType

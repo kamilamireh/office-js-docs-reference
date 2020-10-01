@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.CustomXmlPartCollection#add:member(1)'
@@ -340,11 +342,14 @@ references:
   - uid: 'office!OfficeExtension.ClientObject:class'
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.CustomXmlPart:class'
-    name: Excel.CustomXmlPart
+    name: CustomXmlPart
+    fullName: Excel.CustomXmlPart
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.CustomXmlPartScopedCollection:class'
-    name: Excel.CustomXmlPartScopedCollection
+    name: CustomXmlPartScopedCollection
+    fullName: Excel.CustomXmlPartScopedCollection
   - uid: 'excel!Excel.CustomXmlPartCollection#getCount~0:complex'
     name: OfficeExtension.ClientResult<number>
     fullName: OfficeExtension.ClientResult<number>
@@ -364,7 +369,8 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: 'excel!Excel.CustomXmlPartCollection:class'
-    name: Excel.CustomXmlPartCollection
+    name: CustomXmlPartCollection
+    fullName: Excel.CustomXmlPartCollection
   - uid: 'excel!Excel.CustomXmlPartCollection#load~0:complex'
     name: Excel.Interfaces.CustomXmlPartCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
     fullName: Excel.Interfaces.CustomXmlPartCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
@@ -380,4 +386,5 @@ references:
   - uid: 'office!OfficeExtension.LoadOption:interface'
     name: OfficeExtension.LoadOption
   - uid: 'excel!Excel.Interfaces.CustomXmlPartCollectionData:interface'
-    name: Excel.Interfaces.CustomXmlPartCollectionData
+    name: CustomXmlPartCollectionData
+    fullName: Excel.Interfaces.CustomXmlPartCollectionData

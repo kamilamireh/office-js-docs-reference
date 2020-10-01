@@ -141,4 +141,5 @@ items:
           - boolean
 references:
   - uid: 'word!Word.Interfaces.ContentControlLoadOptions:interface'
-    name: Word.Interfaces.ContentControlLoadOptions
+    name: ContentControlLoadOptions
+    fullName: Word.Interfaces.ContentControlLoadOptions

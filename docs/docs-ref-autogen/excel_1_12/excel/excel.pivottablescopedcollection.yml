@@ -14,6 +14,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.PivotTableScopedCollection#context:member'
@@ -215,6 +217,7 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.PivotTableScopedCollection#getCount~0:complex'
     name: OfficeExtension.ClientResult<number>
     fullName: OfficeExtension.ClientResult<number>
@@ -225,7 +228,8 @@ references:
       - name: <number>
         fullName: <number>
   - uid: 'excel!Excel.PivotTable:class'
-    name: Excel.PivotTable
+    name: PivotTable
+    fullName: Excel.PivotTable
   - uid: 'excel!Excel.PivotTableScopedCollection#items~0:complex'
     name: 'Excel.PivotTable[]'
     fullName: 'Excel.PivotTable[]'
@@ -236,7 +240,8 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: 'excel!Excel.PivotTableScopedCollection:class'
-    name: Excel.PivotTableScopedCollection
+    name: PivotTableScopedCollection
+    fullName: Excel.PivotTableScopedCollection
   - uid: 'excel!Excel.PivotTableScopedCollection#load~0:complex'
     name: Excel.Interfaces.PivotTableScopedCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
     fullName: Excel.Interfaces.PivotTableScopedCollectionLoadOptions & Excel.Interfaces.CollectionLoadOptions
@@ -252,4 +257,5 @@ references:
   - uid: 'office!OfficeExtension.LoadOption:interface'
     name: OfficeExtension.LoadOption
   - uid: 'excel!Excel.Interfaces.PivotTableScopedCollectionData:interface'
-    name: Excel.Interfaces.PivotTableScopedCollectionData
+    name: PivotTableScopedCollectionData
+    fullName: Excel.Interfaces.PivotTableScopedCollectionData

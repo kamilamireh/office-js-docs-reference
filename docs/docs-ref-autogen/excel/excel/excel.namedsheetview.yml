@@ -17,6 +17,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.NamedSheetView#activate:member(1)'
@@ -221,9 +223,13 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.NamedSheetView:class'
-    name: Excel.NamedSheetView
+    name: NamedSheetView
+    fullName: Excel.NamedSheetView
   - uid: 'excel!Excel.Interfaces.NamedSheetViewLoadOptions:interface'
-    name: Excel.Interfaces.NamedSheetViewLoadOptions
+    name: NamedSheetViewLoadOptions
+    fullName: Excel.Interfaces.NamedSheetViewLoadOptions
   - uid: 'excel!Excel.Interfaces.NamedSheetViewData:interface'
-    name: Excel.Interfaces.NamedSheetViewData
+    name: NamedSheetViewData
+    fullName: Excel.Interfaces.NamedSheetViewData

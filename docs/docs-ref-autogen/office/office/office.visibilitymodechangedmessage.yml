@@ -24,4 +24,5 @@ items:
           - 'office!Office.VisibilityMode:enum'
 references:
   - uid: 'office!Office.VisibilityMode:enum'
-    name: Office.VisibilityMode
+    name: VisibilityMode
+    fullName: Office.VisibilityMode

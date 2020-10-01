@@ -184,7 +184,8 @@ items:
           - 'excel!Excel.Interfaces.WorksheetUpdateData:interface'
 references:
   - uid: 'excel!Excel.Interfaces.SlicerStyleUpdateData:interface'
-    name: Excel.Interfaces.SlicerStyleUpdateData
+    name: SlicerStyleUpdateData
+    fullName: Excel.Interfaces.SlicerStyleUpdateData
   - uid: 'excel!Excel.Interfaces.SlicerUpdateData#sortBy~0:complex'
     name: Excel.SlicerSortType | "DataSourceOrder" | "Ascending" | "Descending"
     fullName: Excel.SlicerSortType | "DataSourceOrder" | "Ascending" | "Descending"
@@ -195,4 +196,5 @@ references:
       - name: ' | "DataSourceOrder" | "Ascending" | "Descending"'
         fullName: ' | "DataSourceOrder" | "Ascending" | "Descending"'
   - uid: 'excel!Excel.Interfaces.WorksheetUpdateData:interface'
-    name: Excel.Interfaces.WorksheetUpdateData
+    name: WorksheetUpdateData
+    fullName: Excel.Interfaces.WorksheetUpdateData

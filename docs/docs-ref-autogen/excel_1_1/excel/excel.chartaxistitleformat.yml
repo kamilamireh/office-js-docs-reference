@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.ChartAxisTitleFormat#context:member'
@@ -194,15 +196,21 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.ChartFont:class'
-    name: Excel.ChartFont
+    name: ChartFont
+    fullName: Excel.ChartFont
   - uid: 'excel!Excel.ChartAxisTitleFormat:class'
-    name: Excel.ChartAxisTitleFormat
+    name: ChartAxisTitleFormat
+    fullName: Excel.ChartAxisTitleFormat
   - uid: 'excel!Excel.Interfaces.ChartAxisTitleFormatLoadOptions:interface'
-    name: Excel.Interfaces.ChartAxisTitleFormatLoadOptions
+    name: ChartAxisTitleFormatLoadOptions
+    fullName: Excel.Interfaces.ChartAxisTitleFormatLoadOptions
   - uid: 'excel!Excel.Interfaces.ChartAxisTitleFormatUpdateData:interface'
-    name: Interfaces.ChartAxisTitleFormatUpdateData
+    name: ChartAxisTitleFormatUpdateData
+    fullName: Excel.Interfaces.ChartAxisTitleFormatUpdateData
   - uid: 'office!OfficeExtension.UpdateOptions:interface'
     name: OfficeExtension.UpdateOptions
   - uid: 'excel!Excel.Interfaces.ChartAxisTitleFormatData:interface'
-    name: Excel.Interfaces.ChartAxisTitleFormatData
+    name: ChartAxisTitleFormatData
+    fullName: Excel.Interfaces.ChartAxisTitleFormatData

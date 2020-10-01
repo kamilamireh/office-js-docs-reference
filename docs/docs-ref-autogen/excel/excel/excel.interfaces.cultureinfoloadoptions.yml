@@ -83,6 +83,8 @@ items:
           - 'excel!Excel.Interfaces.NumberFormatInfoLoadOptions:interface'
 references:
   - uid: 'excel!Excel.Interfaces.DatetimeFormatInfoLoadOptions:interface'
-    name: Excel.Interfaces.DatetimeFormatInfoLoadOptions
+    name: DatetimeFormatInfoLoadOptions
+    fullName: Excel.Interfaces.DatetimeFormatInfoLoadOptions
   - uid: 'excel!Excel.Interfaces.NumberFormatInfoLoadOptions:interface'
-    name: Excel.Interfaces.NumberFormatInfoLoadOptions
+    name: NumberFormatInfoLoadOptions
+    fullName: Excel.Interfaces.NumberFormatInfoLoadOptions

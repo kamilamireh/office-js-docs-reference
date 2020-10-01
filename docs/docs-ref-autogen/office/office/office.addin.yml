@@ -153,7 +153,8 @@ references:
       - name: <void>
         fullName: <void>
   - uid: 'office!Office.StartupBehavior:enum'
-    name: Office.StartupBehavior
+    name: StartupBehavior
+    fullName: Office.StartupBehavior
   - uid: 'office!Office.Addin#showAsTaskpane~0:complex'
     name: Promise<void>
     fullName: Promise<void>

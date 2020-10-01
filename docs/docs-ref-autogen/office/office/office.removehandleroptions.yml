@@ -40,3 +40,4 @@ items:
 references:
   - uid: 'office!Office.BindingEventHandler:type'
     name: BindingEventHandler
+    fullName: Office.BindingEventHandler

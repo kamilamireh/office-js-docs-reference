@@ -126,7 +126,8 @@ items:
           - boolean
 references:
   - uid: 'excel!Excel.FilterDatetime:interface'
-    name: Excel.FilterDatetime
+    name: FilterDatetime
+    fullName: Excel.FilterDatetime
   - uid: 'excel!Excel.PivotDateFilter#condition~0:complex'
     name: >-
       Excel.DateFilterCondition | "Unknown" | "Equals" | "Before" | "BeforeOrEqualTo" | "After" | "AfterOrEqualTo" |

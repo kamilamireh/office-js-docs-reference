@@ -64,3 +64,4 @@ items:
 references:
   - uid: 'custom-functions-runtime!CustomFunctions.ErrorCode:enum'
     name: ErrorCode
+    fullName: CustomFunctions.ErrorCode

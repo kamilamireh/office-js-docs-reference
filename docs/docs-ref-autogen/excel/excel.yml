@@ -208,6 +208,7 @@ items:
       - 'excel!Excel.DocumentPropertyItem:enum'
       - 'excel!Excel.DocumentPropertyType:enum'
       - 'excel!Excel.DynamicFilterCriteria:enum'
+      - 'excel!Excel.EndIgnoreIntelliSenseInternalTestClass:var'
       - 'excel!Excel.ErrorCodes:enum'
       - 'excel!Excel.EventSource:enum'
       - 'excel!Excel.EventType:enum'
@@ -244,6 +245,7 @@ items:
       - 'excel!Excel.HorizontalAlignment:enum'
       - 'excel!Excel.Icon:interface'
       - 'excel!Excel.IconCollections:interface'
+      - 'excel!Excel.icons:var'
       - 'excel!Excel.IconSet:enum'
       - 'excel!Excel.IconSetConditionalFormat:class'
       - 'excel!Excel.Image:class'
@@ -981,6 +983,17 @@ items:
           description: ''
           type:
             - string
+  - uid: 'excel!Excel.EndIgnoreIntelliSenseInternalTestClass:var'
+    name: Excel.EndIgnoreIntelliSenseInternalTestClass
+    fullName: Excel.EndIgnoreIntelliSenseInternalTestClass
+    langs:
+      - typeScript
+    type: variable
+    syntax:
+      content: 'EndIgnoreIntelliSenseInternalTestClass: any'
+      return:
+        type:
+          - any
   - uid: 'excel!Excel.getDataCommonPostprocess:function(1)'
     name: 'Excel.getDataCommonPostprocess(response, callArgs)'
     fullName: 'Excel.getDataCommonPostprocess(response, callArgs)'
@@ -1002,6 +1015,18 @@ items:
           description: ''
           type:
             - any
+  - uid: 'excel!Excel.icons:var'
+    summary: '\[ [API set: ExcelApi 1.2](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]'
+    name: Excel.icons
+    fullName: Excel.icons
+    langs:
+      - typeScript
+    type: variable
+    syntax:
+      content: 'icons: IconCollections'
+      return:
+        type:
+          - 'excel!Excel.IconCollections:interface'
   - uid: 'excel!Excel.postprocessBindingDescriptor:function(1)'
     name: Excel.postprocessBindingDescriptor(response)
     fullName: Excel.postprocessBindingDescriptor(response)
@@ -2905,7 +2930,8 @@ references:
       - name: <T>
         fullName: <T>
   - uid: 'excel!Excel.RunOptions:interface'
-    name: Excel.RunOptions
+    name: RunOptions
+    fullName: Excel.RunOptions
   - uid: 'excel!Excel.run~8:complex'
     name: '(context: Excel.RequestContext) => Promise<T>'
     fullName: '(context: Excel.RequestContext) => Promise<T>'

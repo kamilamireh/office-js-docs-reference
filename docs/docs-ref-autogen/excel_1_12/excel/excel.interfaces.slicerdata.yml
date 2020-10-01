@@ -241,7 +241,8 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: 'excel!Excel.Interfaces.SlicerStyleData:interface'
-    name: Excel.Interfaces.SlicerStyleData
+    name: SlicerStyleData
+    fullName: Excel.Interfaces.SlicerStyleData
   - uid: 'excel!Excel.Interfaces.SlicerData#sortBy~0:complex'
     name: Excel.SlicerSortType | "DataSourceOrder" | "Ascending" | "Descending"
     fullName: Excel.SlicerSortType | "DataSourceOrder" | "Ascending" | "Descending"
@@ -252,4 +253,5 @@ references:
       - name: ' | "DataSourceOrder" | "Ascending" | "Descending"'
         fullName: ' | "DataSourceOrder" | "Ascending" | "Descending"'
   - uid: 'excel!Excel.Interfaces.WorksheetData:interface'
-    name: Excel.Interfaces.WorksheetData
+    name: WorksheetData
+    fullName: Excel.Interfaces.WorksheetData

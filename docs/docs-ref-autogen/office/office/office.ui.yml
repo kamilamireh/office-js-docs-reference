@@ -374,7 +374,8 @@ items:
             - string
 references:
   - uid: 'office!Office.EventType:enum'
-    name: Office.EventType
+    name: EventType
+    fullName: Office.EventType
   - uid: 'office!Office.UI#addHandlerAsync~0:complex'
     name: '(result: DialogParentMessageReceivedEventArgs) => void'
     fullName: '(result: Office.DialogParentMessageReceivedEventArgs) => void'
@@ -387,7 +388,8 @@ references:
       - name: ) => void
         fullName: ) => void
   - uid: 'office!Office.AsyncContextOptions:interface'
-    name: Office.AsyncContextOptions
+    name: AsyncContextOptions
+    fullName: Office.AsyncContextOptions
   - uid: 'office!Office.UI#addHandlerAsync~1:complex'
     name: '(result: AsyncResult<void>) => void'
     fullName: '(result: Office.AsyncResult<void>) => void'
@@ -401,6 +403,7 @@ references:
         fullName: <void>) => void
   - uid: 'office!Office.DialogOptions:interface'
     name: DialogOptions
+    fullName: Office.DialogOptions
   - uid: 'office!Office.UI#displayDialogAsync~0:complex'
     name: '(result: AsyncResult<Dialog>) => void'
     fullName: '(result: Office.AsyncResult<Office.Dialog>) => void'

@@ -12,6 +12,8 @@ items:
     type: class
     extends:
       - 'office!OfficeExtension.ClientObject:class'
+    inheritance:
+      - type: 'office!OfficeExtension.ClientObject:class'
     package: excel!
     children:
       - 'excel!Excel.WorkbookRangeAreas#addresses:member'
@@ -291,16 +293,23 @@ references:
   - uid: 'office!OfficeExtension.ClientObject:class'
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.RangeAreasCollection:class'
-    name: Excel.RangeAreasCollection
+    name: RangeAreasCollection
+    fullName: Excel.RangeAreasCollection
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
+    fullName: Excel.RequestContext
   - uid: 'excel!Excel.RangeAreas:class'
-    name: Excel.RangeAreas
+    name: RangeAreas
+    fullName: Excel.RangeAreas
   - uid: 'excel!Excel.WorkbookRangeAreas:class'
-    name: Excel.WorkbookRangeAreas
+    name: WorkbookRangeAreas
+    fullName: Excel.WorkbookRangeAreas
   - uid: 'excel!Excel.Interfaces.WorkbookRangeAreasLoadOptions:interface'
-    name: Excel.Interfaces.WorkbookRangeAreasLoadOptions
+    name: WorkbookRangeAreasLoadOptions
+    fullName: Excel.Interfaces.WorkbookRangeAreasLoadOptions
   - uid: 'excel!Excel.RangeCollection:class'
-    name: Excel.RangeCollection
+    name: RangeCollection
+    fullName: Excel.RangeCollection
   - uid: 'excel!Excel.Interfaces.WorkbookRangeAreasData:interface'
-    name: Excel.Interfaces.WorkbookRangeAreasData
+    name: WorkbookRangeAreasData
+    fullName: Excel.Interfaces.WorkbookRangeAreasData

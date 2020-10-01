@@ -45,3 +45,4 @@ references:
         fullName: <void>
   - uid: 'office!Office.RibbonUpdaterData:interface'
     name: RibbonUpdaterData
+    fullName: Office.RibbonUpdaterData
